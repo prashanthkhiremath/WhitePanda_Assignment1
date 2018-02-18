@@ -1,0 +1,19 @@
+{
+  "name": "whitepanda_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-hotkeys": "^1.7.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lite-server": "^2.3.0",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6"
+  }
+}

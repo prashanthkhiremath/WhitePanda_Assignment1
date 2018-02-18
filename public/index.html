@@ -1,0 +1,30 @@
+<html lang="en" ng-app="trixEditorApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular-Trix-Editor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/trix/0.9.2/trix.css">
+    <link rel="stylesheet" href="./css/hotkeys.min.css">
+</head>
+<body>
+    <mh-navigation></mh-navigation>
+    <div class="container-fluid">
+        <div ng-view></div>    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/trix/0.9.2/trix.js"></script>
+    <script src="./js/angular-trix.js"></script>
+    
+    <script src="./app/app.module.js"></script>
+    <script src="./app/shared/env.constant.js"></script>
+    <script src="./app/shared/shared.service.js"></script>
+    <script src="./app/input-view/input-view.controller.js"></script>
+    <script src="./app/output-view/output-view.controller.js"></script>
+    <script src="./app/navigation-directive/navigation-directive.js"></script>
+</body>
+</html>
